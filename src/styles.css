@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.popover {
+  background: burlywood;
+  width: 30%;
+  padding: 0.5rem;
+}
+.popover {
+  display: none;
+  border-radius: auto;
+  border-radius: 2rem;
+  background-color: ivory;
+}
+.button:hover + .popover {
+  display: inline-block;
+  transition: smooth 1s;
+}
+.btn {
+  background-color: cadetblue;
+  width: 10rem;
+  height: 4rem;
+  outline: none;
+  border-radius: 4rem;
+  border-width: 0;
+  box-shadow: 2rem grey;
+}
